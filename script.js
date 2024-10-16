@@ -1,3 +1,4 @@
+//your JS code here. If required.
 let inputs = document.querySelectorAll(".code");
 
 inputs.forEach((input, i) => {
@@ -20,4 +21,5 @@ inputs.forEach((input, i) => {
             inputs[i-1].focus();
         }
     })
+	inputs[0].focus()
 })
